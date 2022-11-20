@@ -12,7 +12,8 @@ class ANFExploreCardTableViewControllerTests: XCTestCase {
     var testInstance: ANFExploreCardTableViewController!
     
     override func setUp() {
-        testInstance = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateInitialViewController() as? ANFExploreCardTableViewController
+
+        testInstance = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: ANFExploreCardTableViewController.Identifier) as? ANFExploreCardTableViewController
     }
 
     func test_numberOfSections_ShouldBeOne() {
@@ -35,5 +36,21 @@ class ANFExploreCardTableViewControllerTests: XCTestCase {
         let firstCell = testInstance.tableView(testInstance.tableView, cellForRowAt: IndexPath(row: 0, section: 0))
         let imageView = firstCell.viewWithTag(2) as? UIImageView
         XCTAssert(imageView?.image != nil, "image view image should not be nil")
+    }
+}
+
+protocol ANFTestCaseExpectationSettable : AnyObject, XCTWaiterDelegate {
+    
+    var expectation : XCTestExpectation { get set }
+}
+
+extension ANFTestCaseExpectationSettable where Self : XCTestCase {
+    
+    func makeExpectationDescription(_ description: String) {
+        expectation = XCTestExpectation(description: description)
+    }
+    
+    func setWaitTime(_ waitTime: Double = 10.0) {
+        wait(for: [self.expectation], timeout: waitTime)
     }
 }

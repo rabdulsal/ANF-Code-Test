@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AADCBE12929CAD900FB8AFD /* ANFNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBE02929CAD900FB8AFD /* ANFNetworkingService.swift */; };
+		3AADCBE3292A03CE00FB8AFD /* ANFProductsCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBE2292A03CE00FB8AFD /* ANFProductsCardTableViewController.swift */; };
+		3AADCBE8292AC7BC00FB8AFD /* ANFProductItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBE7292AC7BC00FB8AFD /* ANFProductItemCell.swift */; };
+		3AADCBEB292AC95900FB8AFD /* ANFProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBEA292AC95900FB8AFD /* ANFProductItem.swift */; };
+		3AADCBED292AC97F00FB8AFD /* ANFProductContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBEC292AC97F00FB8AFD /* ANFProductContent.swift */; };
+		3AADCBEF292AC9BA00FB8AFD /* ANFImageProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBEE292AC9BA00FB8AFD /* ANFImageProviderService.swift */; };
+		3AADCBF2292BB7EF00FB8AFD /* NSAttributedString+ANF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBF1292BB7EF00FB8AFD /* NSAttributedString+ANF.swift */; };
+		3AADCBF4292BB89C00FB8AFD /* ANFProductContentDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBF3292BB89C00FB8AFD /* ANFProductContentDataCell.swift */; };
+		3AADCBF6292BB94400FB8AFD /* ANFProductProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBF5292BB94400FB8AFD /* ANFProductProviderService.swift */; };
+		3AADCBF9292BBCCF00FB8AFD /* ANFNetworkRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBF8292BBCCF00FB8AFD /* ANFNetworkRequestable.swift */; };
+		3AADCBFB292BBF6700FB8AFD /* ANFProductCellHeightCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBFA292BBF6700FB8AFD /* ANFProductCellHeightCalculator.swift */; };
+		3AADCBFE292BC2BE00FB8AFD /* ANFStartupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBFD292BC2BE00FB8AFD /* ANFStartupCoordinator.swift */; };
+		3AADCC00292BC36500FB8AFD /* ANFContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBFF292BC36500FB8AFD /* ANFContentButton.swift */; };
+		3AADCC02292BD4BF00FB8AFD /* ANFProductsCardTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCC01292BD4BF00FB8AFD /* ANFProductsCardTableViewControllerTests.swift */; };
+		3AADCC04292BD73F00FB8AFD /* ANFImageProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCC03292BD73F00FB8AFD /* ANFImageProviderTests.swift */; };
+		3AADCC06292BD75D00FB8AFD /* ANFProductsProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCC05292BD75D00FB8AFD /* ANFProductsProviderTests.swift */; };
+		3AADCC09292BF2DC00FB8AFD /* ANFProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBEA292AC95900FB8AFD /* ANFProductItem.swift */; };
+		3AADCC0A292BF32C00FB8AFD /* ANFProductContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBEC292AC97F00FB8AFD /* ANFProductContent.swift */; };
+		3AADCC0C292BF42000FB8AFD /* ANFNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBE02929CAD900FB8AFD /* ANFNetworkingService.swift */; };
+		3AADCC0D292BF43900FB8AFD /* ANFNetworkRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBF8292BBCCF00FB8AFD /* ANFNetworkRequestable.swift */; };
+		3AADCC0E292BF46B00FB8AFD /* ANFProductCellHeightCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBFA292BBF6700FB8AFD /* ANFProductCellHeightCalculator.swift */; };
+		3AADCC0F292BF49600FB8AFD /* ANFImageProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBEE292AC9BA00FB8AFD /* ANFImageProviderService.swift */; };
+		3AADCC10292BF5F800FB8AFD /* ANFProductItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBE7292AC7BC00FB8AFD /* ANFProductItemCell.swift */; };
+		3AADCC11292BF60D00FB8AFD /* ANFProductContentDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBF3292BB89C00FB8AFD /* ANFProductContentDataCell.swift */; };
+		3AADCC12292BF64F00FB8AFD /* ANFContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCBFF292BC36500FB8AFD /* ANFContentButton.swift */; };
+		3AADCC14292C93D000FB8AFD /* ANFProductRequestServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCC13292C93CF00FB8AFD /* ANFProductRequestServiceTests.swift */; };
+		3AADCC16292CFF5B00FB8AFD /* ANFProductItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCC15292CFF5B00FB8AFD /* ANFProductItemTests.swift */; };
 		3E4AB93A2676D86100C79456 /* exploreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E4AB9392676D86100C79456 /* exploreData.json */; };
 		3E727ED326727088006C11AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727ED226727088006C11AC /* AppDelegate.swift */; };
 		3E727ED526727088006C11AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727ED426727088006C11AC /* SceneDelegate.swift */; };
@@ -28,6 +55,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AADCBE02929CAD900FB8AFD /* ANFNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFNetworkingService.swift; sourceTree = "<group>"; };
+		3AADCBE2292A03CE00FB8AFD /* ANFProductsCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductsCardTableViewController.swift; sourceTree = "<group>"; };
+		3AADCBE7292AC7BC00FB8AFD /* ANFProductItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductItemCell.swift; sourceTree = "<group>"; };
+		3AADCBEA292AC95900FB8AFD /* ANFProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductItem.swift; sourceTree = "<group>"; };
+		3AADCBEC292AC97F00FB8AFD /* ANFProductContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductContent.swift; sourceTree = "<group>"; };
+		3AADCBEE292AC9BA00FB8AFD /* ANFImageProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFImageProviderService.swift; sourceTree = "<group>"; };
+		3AADCBF1292BB7EF00FB8AFD /* NSAttributedString+ANF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+ANF.swift"; sourceTree = "<group>"; };
+		3AADCBF3292BB89C00FB8AFD /* ANFProductContentDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductContentDataCell.swift; sourceTree = "<group>"; };
+		3AADCBF5292BB94400FB8AFD /* ANFProductProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductProviderService.swift; sourceTree = "<group>"; };
+		3AADCBF8292BBCCF00FB8AFD /* ANFNetworkRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFNetworkRequestable.swift; sourceTree = "<group>"; };
+		3AADCBFA292BBF6700FB8AFD /* ANFProductCellHeightCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductCellHeightCalculator.swift; sourceTree = "<group>"; };
+		3AADCBFD292BC2BE00FB8AFD /* ANFStartupCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFStartupCoordinator.swift; sourceTree = "<group>"; };
+		3AADCBFF292BC36500FB8AFD /* ANFContentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFContentButton.swift; sourceTree = "<group>"; };
+		3AADCC01292BD4BF00FB8AFD /* ANFProductsCardTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductsCardTableViewControllerTests.swift; sourceTree = "<group>"; };
+		3AADCC03292BD73F00FB8AFD /* ANFImageProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFImageProviderTests.swift; sourceTree = "<group>"; };
+		3AADCC05292BD75D00FB8AFD /* ANFProductsProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductsProviderTests.swift; sourceTree = "<group>"; };
+		3AADCC13292C93CF00FB8AFD /* ANFProductRequestServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductRequestServiceTests.swift; sourceTree = "<group>"; };
+		3AADCC15292CFF5B00FB8AFD /* ANFProductItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFProductItemTests.swift; sourceTree = "<group>"; };
 		3E4AB9392676D86100C79456 /* exploreData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exploreData.json; sourceTree = "<group>"; };
 		3E727ECF26727088006C11AC /* ANF Code Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANF Code Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E727ED226727088006C11AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +105,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AADCBE4292AC78200FB8AFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E727F02267281F7006C11AC /* ANFExploreCardTableViewController.swift */,
+				3AADCBE2292A03CE00FB8AFD /* ANFProductsCardTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3AADCBE5292AC78C00FB8AFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AADCBEA292AC95900FB8AFD /* ANFProductItem.swift */,
+				3AADCBEC292AC97F00FB8AFD /* ANFProductContent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AADCBE6292AC79C00FB8AFD /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3AADCBE7292AC7BC00FB8AFD /* ANFProductItemCell.swift */,
+				3AADCBF3292BB89C00FB8AFD /* ANFProductContentDataCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		3AADCBE9292AC93000FB8AFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3AADCBEE292AC9BA00FB8AFD /* ANFImageProviderService.swift */,
+				3AADCBE02929CAD900FB8AFD /* ANFNetworkingService.swift */,
+				3AADCBF5292BB94400FB8AFD /* ANFProductProviderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3AADCBF0292BB7AF00FB8AFD /* Extensions & SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3AADCBF1292BB7EF00FB8AFD /* NSAttributedString+ANF.swift */,
+				3AADCBFF292BC36500FB8AFD /* ANFContentButton.swift */,
+			);
+			path = "Extensions & SubClasses";
+			sourceTree = "<group>";
+		};
+		3AADCBF7292BBCAA00FB8AFD /* Helpers & Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3AADCBF8292BBCCF00FB8AFD /* ANFNetworkRequestable.swift */,
+				3AADCBFA292BBF6700FB8AFD /* ANFProductCellHeightCalculator.swift */,
+			);
+			path = "Helpers & Utilities";
+			sourceTree = "<group>";
+		};
+		3AADCBFC292BC2AA00FB8AFD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				3AADCBFD292BC2BE00FB8AFD /* ANFStartupCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		3E727EC626727088006C11AC = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +189,13 @@
 		3E727ED126727088006C11AC /* ANF Code Test */ = {
 			isa = PBXGroup;
 			children = (
-				3E727F02267281F7006C11AC /* ANFExploreCardTableViewController.swift */,
+				3AADCBFC292BC2AA00FB8AFD /* Coordinators */,
+				3AADCBF7292BBCAA00FB8AFD /* Helpers & Utilities */,
+				3AADCBF0292BB7AF00FB8AFD /* Extensions & SubClasses */,
+				3AADCBE9292AC93000FB8AFD /* Services */,
+				3AADCBE6292AC79C00FB8AFD /* TableViewCells */,
+				3AADCBE5292AC78C00FB8AFD /* Models */,
+				3AADCBE4292AC78200FB8AFD /* ViewControllers */,
 				3E727ED226727088006C11AC /* AppDelegate.swift */,
 				3E727ED426727088006C11AC /* SceneDelegate.swift */,
 				3E727ED826727088006C11AC /* Main.storyboard */,
@@ -98,6 +212,11 @@
 			children = (
 				3E727EE92672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift */,
 				3E727EEB2672708B006C11AC /* Info.plist */,
+				3AADCC01292BD4BF00FB8AFD /* ANFProductsCardTableViewControllerTests.swift */,
+				3AADCC03292BD73F00FB8AFD /* ANFImageProviderTests.swift */,
+				3AADCC05292BD75D00FB8AFD /* ANFProductsProviderTests.swift */,
+				3AADCC13292C93CF00FB8AFD /* ANFProductRequestServiceTests.swift */,
+				3AADCC15292CFF5B00FB8AFD /* ANFProductItemTests.swift */,
 			);
 			path = "ANF Code TestTests";
 			sourceTree = "<group>";
@@ -203,9 +322,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AADCBE8292AC7BC00FB8AFD /* ANFProductItemCell.swift in Sources */,
 				3E727F03267281F7006C11AC /* ANFExploreCardTableViewController.swift in Sources */,
+				3AADCBFB292BBF6700FB8AFD /* ANFProductCellHeightCalculator.swift in Sources */,
+				3AADCBEF292AC9BA00FB8AFD /* ANFImageProviderService.swift in Sources */,
+				3AADCBF4292BB89C00FB8AFD /* ANFProductContentDataCell.swift in Sources */,
 				3E727ED326727088006C11AC /* AppDelegate.swift in Sources */,
+				3AADCBED292AC97F00FB8AFD /* ANFProductContent.swift in Sources */,
+				3AADCBFE292BC2BE00FB8AFD /* ANFStartupCoordinator.swift in Sources */,
+				3AADCBE3292A03CE00FB8AFD /* ANFProductsCardTableViewController.swift in Sources */,
+				3AADCBF9292BBCCF00FB8AFD /* ANFNetworkRequestable.swift in Sources */,
+				3AADCBEB292AC95900FB8AFD /* ANFProductItem.swift in Sources */,
+				3AADCBF6292BB94400FB8AFD /* ANFProductProviderService.swift in Sources */,
 				3E727ED526727088006C11AC /* SceneDelegate.swift in Sources */,
+				3AADCC00292BC36500FB8AFD /* ANFContentButton.swift in Sources */,
+				3AADCBE12929CAD900FB8AFD /* ANFNetworkingService.swift in Sources */,
+				3AADCBF2292BB7EF00FB8AFD /* NSAttributedString+ANF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +345,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AADCC0E292BF46B00FB8AFD /* ANFProductCellHeightCalculator.swift in Sources */,
+				3AADCC0D292BF43900FB8AFD /* ANFNetworkRequestable.swift in Sources */,
+				3AADCC06292BD75D00FB8AFD /* ANFProductsProviderTests.swift in Sources */,
+				3AADCC04292BD73F00FB8AFD /* ANFImageProviderTests.swift in Sources */,
+				3AADCC0A292BF32C00FB8AFD /* ANFProductContent.swift in Sources */,
+				3AADCC12292BF64F00FB8AFD /* ANFContentButton.swift in Sources */,
+				3AADCC0F292BF49600FB8AFD /* ANFImageProviderService.swift in Sources */,
+				3AADCC14292C93D000FB8AFD /* ANFProductRequestServiceTests.swift in Sources */,
+				3AADCC16292CFF5B00FB8AFD /* ANFProductItemTests.swift in Sources */,
+				3AADCC11292BF60D00FB8AFD /* ANFProductContentDataCell.swift in Sources */,
+				3AADCC0C292BF42000FB8AFD /* ANFNetworkingService.swift in Sources */,
+				3AADCC09292BF2DC00FB8AFD /* ANFProductItem.swift in Sources */,
+				3AADCC10292BF5F800FB8AFD /* ANFProductItemCell.swift in Sources */,
 				3E727EEA2672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift in Sources */,
+				3AADCC02292BD4BF00FB8AFD /* ANFProductsCardTableViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
